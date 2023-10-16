@@ -1,0 +1,17 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: solid 1px red;
+}
+
+.upper-header {
+    background-color: white;
+    height: 60px;
+}
+
+.jumbo {
+    background-color: rgb(180, 208, 231);
+    height: 500px;
+}
