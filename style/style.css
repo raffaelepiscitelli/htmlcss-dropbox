@@ -3,12 +3,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: solid 1px red;
+    border: solid 1px black;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
 }
 
 .flex-a-i-center {
     display: flex;
     align-items: center;
+}
+
+.margin-25 {
+    margin: 0 25%;
 }
 
 .upper-header {
@@ -23,27 +32,80 @@
 
 .business-plan {
     flex-direction: column;
+    padding: 9rem 0;
 }
 
 .box-red {
     background-color: red;
     height: 150px;
-    width: 50%;
 }
-
-
+    
 .vertical-box {
     height: 750px;
-    width: 200px;
+}
+
+.vertical-box-central {
+    height: 750px;
+    margin: 0 3rem;
 }
 
 .horizontal-box {
-    width: 50%;
     height: 200px;
+    margin-top: 3rem;
 }
 
 .box-blue {
     background-color: blue;
+    height: 600px;
+}
+
+.dropbox-business {
+    padding: 9rem 0;
+}
+
+.box-green {
+    background-color: green;
+    height: 800px;
+}
+
+.box-yellow {
+    background-color: yellow;
+    height: 150px;
+    margin-bottom: 9rem;
+}
+
+.container-team {
+    background-color: magenta;
+    height: 450px;
+}
+
+.team-group-aside {
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team {
     width: 50%;
-    height: 700px;
+    height: 50%;
+}
+
+.team-central {
+    width: calc(100% / 3);
+    height: 100%;
+}
+
+.free-trial {
+    background-color: rgb(180, 208, 231);
+    height: 250px;
+}
+
+.faq {
+    height: 500px;
+}
+
+footer {
+    background-color: black;
+    height: 400px;
 }
