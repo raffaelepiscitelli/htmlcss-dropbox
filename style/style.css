@@ -6,6 +6,11 @@
     border: solid 1px red;
 }
 
+.flex-a-i-center {
+    display: flex;
+    align-items: center;
+}
+
 .upper-header {
     background-color: white;
     height: 60px;
@@ -14,4 +19,31 @@
 .jumbo {
     background-color: rgb(180, 208, 231);
     height: 500px;
+}
+
+.business-plan {
+    flex-direction: column;
+}
+
+.box-red {
+    background-color: red;
+    height: 150px;
+    width: 50%;
+}
+
+
+.vertical-box {
+    height: 750px;
+    width: 200px;
+}
+
+.horizontal-box {
+    width: 50%;
+    height: 200px;
+}
+
+.box-blue {
+    background-color: blue;
+    width: 50%;
+    height: 700px;
 }
