@@ -22,7 +22,31 @@ body {
 
 .upper-header {
     background-color: white;
-    height: 60px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+.right-upper-header {
+    padding-left: 1rem;
+}
+
+.right-upper-header span {
+    padding-left: 2rem;
+}
+
+.left-upper-header span {
+    padding-left: 2rem;
+}
+
+#logo {
+    height: 5.4rem;
+    padding: 1.5rem 0;
+}
+
+#inizia {
+    background-color: rgb(0, 97, 255);
+    height: 50px;
 }
 
 .jumbo {
