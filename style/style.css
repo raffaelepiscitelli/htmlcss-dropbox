@@ -293,20 +293,24 @@ body {
     padding-top: 1.5rem;
 }
 
-.box-yellow {
-    background-color: yellow;
-    height: 150px;
+.box-title-team {
     margin-bottom: 9rem;
 }
 
-.container-team {
-    background-color: magenta;
-    height: 450px;
+#title-team {
+    margin-bottom: 2rem;
 }
 
-.team-group-aside {
-    width: calc(100% / 3);
-    height: 100%;
+.link {
+    color: blue;
+}
+
+.container-team {
+}
+
+.team-group {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
 }
@@ -314,12 +318,71 @@ body {
 .team {
     width: 50%;
     height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.team-central {
-    width: calc(100% / 3);
-    height: 100%;
+
+.img-team {
+    width: 50%;
+    filter: invert(1);
 }
+
+.designit {
+    background-color: rgb(162, 211, 155);
+    border: 0.7rem solid rgb(209, 233, 205);
+}
+
+.asu {
+    background-color: rgb(97, 8, 43);
+}
+
+.uf {
+    background-color: rgb(0, 147, 206);
+}
+
+.topps {
+    background-color: rgb(255, 28, 28);
+}
+
+.designit-central {
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 2rem;
+}
+
+.img-central {
+    width: 50%;
+    margin-bottom: 4rem;
+}
+
+.text-designit-central {
+    margin-top: 2rem;
+}
+
+.wbr {
+    background-color: rgb(213, 0, 31);
+}
+
+.hc {
+    background-color: rgb(180, 208, 231);
+}
+
+.lp {
+    background-color: rgb(13, 36, 129);
+}
+
+.cco {
+    background-color: rgb(255, 216, 48);
+}
+
+
 
 .free-trial {
     background-color: rgb(180, 208, 231);
