@@ -233,9 +233,43 @@ body {
     margin-top: 1.3rem;
     margin-bottom: 1rem;
 }
-.box-blue {
-    background-color: blue;
-    height: 600px;
+
+.container-contact-partner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container-contact-partner {
+    width: 60%;
+}
+
+#img-partner {
+    width: 100%;
+}
+
+.right-container-contact-partner {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3.9rem;
+}
+
+#title-contact-partner {
+    padding-bottom: 0.8rem;
+    padding-top: 3rem;
+}
+
+#text-contact-partner {
+    padding-bottom: 2rem;
+}
+
+#find-partner {
+    color: black;
+    border: 2px solid black;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.4rem;
 }
 
 .dropbox-business {
